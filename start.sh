@@ -1,7 +1,7 @@
 #!/bin/bash
 
 (
-	cd /opt/steamcmd
+	cd /home/steam/steamcmd
 	./steamcmd.sh +login anonymous \
 				+force_install_dir ${SERVER_DIRECTORY} \
 				+app_update 565060 validate \
